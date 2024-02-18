@@ -1,0 +1,46 @@
+body,#main{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#title{
+    margin: 0%;
+    border: 0;
+    padding: 2%;
+    font-size: xx-large;
+    background-color:wheat;
+    text-align: center;
+}
+
+#img-div{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image{
+    width: 40%;
+    height: 40%;
+    max-width: 600px;
+}
+
+#tribute-info{
+    width: 60%;
+    height: auto;
+    position: relative;
+    left: 20%;
+}
+
+#tribute-info > h3{
+    text-align: center;
+}
+
+li{
+    padding: 0.5%;
+}
+
+h2{
+    text-align: center;
+}

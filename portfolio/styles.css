@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,400&family=Poppins&display=swap');
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+}
+
+#navbar {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: #343444;
+    position: fixed;
+    z-index: 1;
+}
+
+#navbar>* {
+    width: fit-content;
+    white-space: nowrap;
+    padding: 0 3% 0 3%;
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins';
+    font-size: x-large;
+}
+
+#welcome-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open sans';
+    font-size: xx-large;
+    background-color: #343444;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Poppins';
+    padding: 1% 0 1% 0;
+    font-size: xx-large;
+}
+
+#projects{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    column-gap: 20px;
+    left: 10%;
+}
+
+.project-tile{
+    width: 30%;
+    background-color: #14141f;
+}
+
+.project-title{
+    width: 100%;
+    height: 15%;
+    font-size: large;
+    font-family: 'Open sans';
+    color: white;
+    text-align: center;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 1%;
+    height: 20%;
+    background-color: #343444;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    margin: 0;
+    width: 50%;
+    height: 100%;
+    font-family: 'Open sans';
+}
+
+.icon{
+    width: 15%;
+    height: 100%;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins';
+}
+
+@media (max-width:455px) {
+    #projects{
+        flex-direction: column;
+    }
+}
